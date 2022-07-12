@@ -1,5 +1,15 @@
 #include <iostream>
 using namespace std;
+
+/*
+ Horizontal lines pattern
+             *
+             *
+             *
+             *
+ Vertical lines pattern
+          *****
+*/
 main()
 {
     int n, m;
@@ -7,12 +17,12 @@ main()
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
-        cout << "#" << endl;
+        cout << "*" << endl;
     }
     cout << "Enter the numbers of Vertical lines:" << endl;
     cin >> m;
     for (int i = 1; i <= m; i++)
     {
-        cout << "#";
+        cout << "";
     }
 }
